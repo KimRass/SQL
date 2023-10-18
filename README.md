@@ -250,7 +250,8 @@ FROM Customers
 FETCH FIRST 3 ROWS ONLY;
 ```
 ### `SELECT FROM ORDER BY`
-- ***`ORDER BY`가 정렬을 하는 시점은 모든 실행이 끝난 후 데이터를 출력하기 바로 직전이다.***
+- ***`ORDER BY`가 정렬을 하는 시점은 모든 실행이 끝난 후 데이터를 출력하기 바로 직전입니다.***
+- `ORDER BY` 다음에 여러 개의 컬럼이 오면 앞에서부터 순서대로 정렬 적용합니다.
 - `ORDER BY <<Number>>`
 	- `<Number>>` stands for the column based on the number of columns defined in the `SELECT` clause.
 - ***Oracle: NULL values are larger than any non-NULL values.***
