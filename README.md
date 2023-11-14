@@ -89,7 +89,8 @@ FROM INFORMATION_SCHEMA.TALBE_CONTSTRAINTS
 CREATE TABLE <<Table>>(
 	<<Column1>> <<Data Type1>> [<<Constraint1>>],
 	<<Column2>> <<Data Type2>> [<<Constraint2>>],
-	...)
+	...
+)
 ```
 - For defining a primary key on multiple columns, the statement should be like;
 	```sql
